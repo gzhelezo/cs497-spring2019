@@ -51,10 +51,12 @@ Post your report in [Marmoset](https://cs.ycp.edu/marmoset) by the scheduled due
     
 - ```touch badfile``` will create an empty ```badfile```
 
+<!--
 ### If you get stuck
 - Task 2 - you need to find 1: *offset to the return address*, and 2: *new return address*
   - ```*((long *) (buffer + /*offset to the return address*/)) = /*new return address*/;```
   - ```memcpy(buffer + sizeof(buffer) - sizeof(shellcode) /*offset to shellcode  */, shellcode, sizeof(shellcode));```
+-->
   
 # Example Output 
 
